@@ -201,24 +201,42 @@ a {
 .catalog {
   width: 1200px;
   margin: 0 auto;
-}
-.catalog__block {
-  margin-top: 80px;
-  margin-right: 5px;
-  margin-left: 5px;
-  border-radius: 10px;
-  display: inline-block;
-  position: relative;
-}
-.catalog__img {
-  border-radius: 10px;
+  display: flex;
+
 }
 
-.catalog__heading {
-  position: absolute;
-  top: 183px;
-  left: 21px;
 
+.catalog__block{
+  
+  border-radius: 10px;
+  width: 387px;
+height: 442px;
+margin-top: 80px;
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 10px;display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.catalog_img-1{
+  background-image:linear-gradient(180deg,rgba(174, 124, 120, 0.6),rgba(174, 124, 120, 0.6)),url("../img/1.png");
+  
+ 
+  ;
+}
+.catalog_img-2{
+  background-image:linear-gradient(180deg,rgba(174, 124, 120, 0.6),rgba(174, 124, 120, 0.6)),url("../img/2.png");
+
+  
+}
+.catalog_img-3{
+  background-image:linear-gradient(180deg,rgba(174, 124, 120, 0.6),rgba(174, 124, 120, 0.6)),url("../img/3.png");
+
+  
+}
+
+.catalog__heading{
+  text-align: center;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -226,16 +244,18 @@ a {
   line-height: 48px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0 auto;
 }
-.catalog__text {
-  position: absolute;
-  top: 239px;
-  left: 116px;
+
+.catalog__text{
+  text-align: center;
   font-family: Montserrat;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin-top: 8px;
 }
+
 
 .discounts {
   width: 1200px;
@@ -274,6 +294,7 @@ a {
 }
 .steps__item {
   display: flex;
+  
 }
 .steps__heading {
   text-align: center;
@@ -289,6 +310,7 @@ a {
 .steps__block {
   width: 285px;
   margin-top: 37px;
+  margin: 0 10px;
 }
 .steps__block_img {
   display: block;
