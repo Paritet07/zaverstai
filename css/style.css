@@ -55,7 +55,7 @@ a {
 .preview {
   width: 1200px;
   margin: 0 auto;
-  margin-top: 82px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -228,28 +228,19 @@ a {
   justify-content: center;
 }
 .catalog_img-1 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(174, 124, 120, 0.6),
-      rgba(174, 124, 120, 0.6)
-    ),
+  background-image: 
     url("../img/1.png");
+    box-shadow: 500px 500px 500px rgba(174, 124, 120, 0.6) inset;
 }
 .catalog_img-2 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(174, 124, 120, 0.6),
-      rgba(174, 124, 120, 0.6)
-    ),
+  background-image:
     url("../img/2.png");
+    box-shadow: 500px 500px 500px rgba(174, 124, 120, 0.6) inset;
 }
 .catalog_img-3 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(174, 124, 120, 0.6),
-      rgba(174, 124, 120, 0.6)
-    ),
+  background-image:
     url("../img/3.png");
+    box-shadow: 500px 500px 500px rgba(174, 124, 120, 0.6) inset;
 }
 
 .catalog__heading {
